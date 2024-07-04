@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work-experience">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="py-5">
+            <div class="container">
+                <h1 class="display-4 text-center">About Me</h1>
+                <p>Hello! I'm Nasteho Cali, a 21-year-old coding enthusiast with a passion for learning and growth. After completing high school last year, I took a chance on a coding course that sparked a newfound interest in the world of programming. With a background in Business and Administration, I never thought I'd find myself fascinated by code, but here I am, eager to learn more.
+
+                    As a curious and driven individual, I'm currently diving into the world of Java Full Stack Development, and I'm excited to see where this journey takes me. With a strong foundation in problem-solving and analytical thinking, I'm confident that my skills will continue to evolve and improve with each new challenge.</p>
+                <img src="imeges/781101.png" alt="Image" class="img-fluid rounded-circle" width="200" height="200">
+            </div>
+        </section>
+
+        <section id="work-experience" class="py-5">
+            <div class="container">
+                <h1 class="display-4 text-center">Work Experience</h1>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <p> During my high school years, I gained valuable experience as an intern in various stores, developing essential skills in communication, teamwork, and time management. Although my work experience may be limited, I'm eager to apply my skills in a real-world setting and continue to grow as a professional.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-5">
+            <div class="container">
+                <h1 class="display-4">Skills</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Programming Languages</h2>
+                        <ul>
+                            <li>Java Fullstack developer (currently learning)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Web Development Tools & Technologies</h2>
+                        <ul>
+                            <li>Tool 1: Visual Studio Code (a powerful and lightweight code editor)</li>
+                            <li>Tool 2: GitHub (version control and collaboration platform)</li>
+                            <li>Tool 3: Bootstrap (a popular CSS framework for building responsive websites)</li>
+                            <li>HTML (Hypertext Markup Language for structuring and content on the web)</li>
+                            <li>CSS (Cascading Style Sheets for styling and layout)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--section id="projects" class="py-5">
+            <div class="container">
+                <h1 class="display-4">Projects</h1>
+                < Add project content here>
+            </div>
+        </section-->
+
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h1 class="display-4 text-center">Contact</h1>
+                <div class="row">
+                    <!--div class="col-lg-6 mb-4">
+                        <p>Get in touch with me through:</p>
+                        <ul>
+                            <li>Email: <a href="mailto:nastehocali@gmail.com">nastehocali@gmail.com</a></li>
+                            <li>Phone: 555-555-5555</li>
+                            <li>LinkedIn: <a href="https://www.linkedin.com/in/nastehocali/">Nasteho Cali</a></li>
+                        </ul>
+                    </div-->
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
